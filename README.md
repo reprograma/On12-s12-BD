@@ -523,6 +523,8 @@ Esse número `1` indica que estamos ordenando do primeiro para o último, no cas
 
 # Links Extras:
 
+- Apresentação utilizada na aula: https://docs.google.com/presentation/d/1Aj-rh80A1Tb72gtmxpZ-AchGCC_441hCEL0eZ7Ui4I8/edit?usp=sharing
+
 - [https://kenzie.com.br/blog/banco-de-dados/](https://kenzie.com.br/blog/banco-de-dados/)
 - [https://rockcontent.com/br/blog/banco-de-dados/](https://rockcontent.com/br/blog/banco-de-dados/)
 - [https://medium.com/xp-inc/comparando-os-termos-utilizados-no-nosql-com-sql-e862788e2374](https://medium.com/xp-inc/comparando-os-termos-utilizados-no-nosql-com-sql-e862788e2374)
