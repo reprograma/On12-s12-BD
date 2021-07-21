@@ -173,11 +173,13 @@ Feito isso, deve-se seguir os passos a seguir:
 
 ![install_mongo_db_windows_3](https://i.imgur.com/renmHqg.png)
 
-![install_mongo_db_windows_4](https://i.imgur.com/zxbDujj.png)
+Devemos acessar o painel de controle para adicionar variáveis de ambiente. Para isso devemos clicar em *editar as variáveis de ambiente do sistema* e em seguida na janela que for aberta, clicar em *Variáveis de Ambiente...*
 
-![install_mongo_db_windows_5](https://i.imgur.com/tWyXQ8X.png)
+![install_mongo_db_windows_4](https://i.imgur.com/HvBt8LJ.png)
 
-![install_mongo_db_windows_6](https://i.imgur.com/V86Mska.png)
+![install_mongo_db_windows_5](https://i.imgur.com/H6914Th.png)
+
+Ao clicar em *Variáveis de Ambiente*, irá abrir uma janela onde deverá ser adicionado o caminho da pasta bin de onde está instalado o seu mongoDB. Exemplo, adicionar o caminho *C:\Program Files\MongoDB\Server\5.0\bin*
 
 ### Inicializando o servidor
 
@@ -187,8 +189,12 @@ Para iniciar o servidor abra o terminal e digite **mongod** e pressione. Com o s
 
 ### Utilizando o mongodb
 
-No novo terminal que abrimos, para começarmos a trabalhar com o mongo devemos digitar **mongo** e pressionar enter:
+No novo terminal que abrimos, sem fechar o que está rodando o servidor, para começarmos a trabalhar com o mongo devemos navegar até a pasta bin do mongo, conforme a imagem:
 
+![using_mongo_directory](https://i.imgur.com/krZvjCF.png)
+
+Já dentro da pasta bin no terminal, digitar **mongo** e pressionar enter:
+ 
 ![using_mongo](https://i.imgur.com/sB0Zstt.png)
 
 #### Databases
@@ -251,6 +257,8 @@ Antes de criar collections no nosso novo database `reprograma`, vamos recordar d
 ## Robo 3T
 
 Poderíamos continuar inserindo novas consultas na nossa nova Collection Consultas pelo terminal, como fizemos anteriormente, porém podemos melhorar nossa experiência utilizando um programa com interface gráfica bem mais simples de utilizar para continuarmos nossas atividades. Vamos então instalar o Robo 3T para facilitar nosso uso do mongo? Para isso acesse o link https://robomongo.org/ e efetue o download e instalação do mesmo.
+
+![mongo_robo_3t_0](https://pbs.twimg.com/profile_images/674614010587795456/sCsiuBmt_400x400.png)
 
 Com o mesmo já instalado podemos nos conectar no nosso banco de dados que está rodando ali naquele terminal que deixamos aberto. Para isso clicamos nos dois computadores do menu:
 
