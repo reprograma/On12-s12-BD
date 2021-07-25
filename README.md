@@ -158,8 +158,22 @@ MongoDB é um banco de dados não relacional (noSQL) orientado a documentos no f
 
 Aqui vamos focar na instalação do MongoDB no Windows, mas caso seja necessário a instalação no Linux ou MacOS, basta seguir os links abaixo:
 
- * MacOS: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
  * Linux: https://docs.mongodb.com/manual/administration/install-on-linux/
+ * MacOS: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/ (É importante lembrar de criar a pasta `data/db` dentro do diretório `/Users/nomeUsuario`)
+
+ps: Caso seu **MacOS** seja de uma versão mais antiga (ex: Sierra), deve-se rodar esses comandos no terminal para instalar:
+
+```
+$ brew tap mongodb/brew
+$ brew install mongodb-community@4.2
+```
+E então utilizar os comandos abaixo para iniciar e parar o servidor, respectivamente:
+
+```
+$ brew services start mongodb-community@4.2
+$ brew services stop mongodb-community@4.2
+```
+Em versões mais atuais do mac, podemos subir o servidor utilizando o comando: `mongod --dbpath=/Users/nomeUsuario/data/db`.
 
 ### Windows
 
@@ -183,19 +197,21 @@ Ao clicar em *Variáveis de Ambiente*, irá abrir uma janela onde deverá ser ad
 
 ### Inicializando o servidor
 
-Para iniciar o servidor abra o terminal e digite **mongod** e pressione. Com o servidor de pé, deixamos esse terminal aberto e abrimos um novo para trabalharmos com o banco de dados.
+Para iniciar o servidor, abra o terminal e navegue, por meio dele, até a pasta *C:\Program Files\MongoDB\Server\5.0\bin*. Para isso, digite no terminal `cd C:\Program Files\MongoDB\Server\5.0\bin` e pressione "enter". Com isso você estará na pasta desejada, e deverá então digitar `mongod` e pressionar enter. Feito isso, o servidor deverá ficar de pé.
 
 ![init_mongo](https://i.imgur.com/yx2siOU.png)
 
 ### Utilizando o mongodb
 
-No novo terminal que abrimos, sem fechar o que está rodando o servidor, para começarmos a trabalhar com o mongo devemos navegar até a pasta bin do mongo, conforme a imagem:
+Com o servidor rodando em um terminal, deixamos esse terminal aberto e abrimos um novo para trabalharmos com o banco de dados. No novo terminal que abrimos, sem fechar o que está rodando o servidor, devemos navegar até a pasta bin do mongo, como fizemos para subir o servidor, digitando `cd C:\Program Files\MongoDB\Server\5.0\bin`:
 
 ![using_mongo_directory](https://i.imgur.com/krZvjCF.png)
 
 Já dentro da pasta bin no terminal, digitar **mongo** e pressionar enter:
  
 ![using_mongo](https://i.imgur.com/sB0Zstt.png)
+
+Feito isso, já poderemos começar a trabalhar com o mongo!
 
 #### Databases
 
