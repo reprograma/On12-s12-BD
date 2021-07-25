@@ -199,7 +199,7 @@ Ao clicar em *Variáveis de Ambiente*, irá abrir uma janela onde deverá ser ad
 
 Para iniciar o servidor, abra o terminal e navegue, por meio dele, até a pasta *C:\Program Files\MongoDB\Server\5.0\bin*. Para isso, digite no terminal `cd C:\Program Files\MongoDB\Server\5.0\bin` e pressione "enter". Com isso você estará na pasta desejada, e deverá então digitar `mongod` e pressionar enter. Feito isso, o servidor deverá ficar de pé.
 
-![init_mongo](https://i.imgur.com/yx2siOU.png)
+![init_mongo](https://i.imgur.com/ykXe9XT.png)
 
 ### Utilizando o mongodb
 
