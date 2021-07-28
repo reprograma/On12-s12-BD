@@ -3,7 +3,7 @@
     <p align="center">Mongo Online<p>
 </h1>
 
-## Mongo Online
+## Acesso ao Mongo Online
 
 Criei um banco de dados online para caso não tenha sido possível realizar a instalação do mongo na máquina. Vou deixar esse banco de dados, que é compartilhado, disponível enquanto estiver acontecendo o curso.
 
