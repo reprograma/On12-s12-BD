@@ -551,9 +551,74 @@ Espero que tenha gostado da atividade e o segredo é praticar!!! Quanto mais exe
 
 Você deve criar um banco de dados novo (database) e uma coleção com um nome pertinente, de acordo com os dados e tema que você escolher. Os seguintes comandos devem ser feitos e entregues:
 
+
+ Nessa semanana conhecemos uma nova ferramenta, o Mongodb e o Robo t3, inicializei o mongoDB no Prompt de Comando , em seguida instalei o ROBO T3 para conectar ao nosso banco de dados .
+
+Foi uma experiencia muito boa.
+
+
 * Inserção de documentos
+db.getCollection('Consultas').insert([
+{
+    " id " : 2 ,
+    " nome " : " Ervin Howell " ,
+    " nome de usuário " : " Antonette " ,
+    " email " : " Shanna@melissa.tv " ,
+    " endereço " : {
+      " rua " : " Victor Plains " ,
+      " suite " : " Suite 879 " ,
+      " cidade " : " Wisokyburgh " ,
+      " CEP " : " 90566-7771 " ,
+      " geo " : {
+        " lat " : " -43,9509 " ,
+        " lng " : " -34,4618 "
+      }
+    },
+    " telefone " : " 010-692-6593 x09125 " ,
+    " site " : " anastasia.net " ,
+    " empresa " : {
+      " nome " : " Deckow-Crist " ,
+      " catchPhrase " : " Contingência didática proativa " ,
+      " bs " : " sinergizar cadeias de suprimentos escalonáveis "
+    }
+  },
+
+]
+
+
+
+
+ db.getCollection('dados').insert([
+
+* Buscando estudante 
+db.getCollection('dados').find({})
+
 * Atualização de documentos
+db.getCollection('dados').update(
+    { " estudante.nome " : " Leanne Graham " },
+    { $set:
+        { 
+            " estudante.endereco " : " Ipanema " 
+        }
+    }
+);
 * Exclusão de documentos
+db.getCollection('dados').remove({" estudante " : " Ervin Howell "})
+
 * Consulta com projeção
+db.getCollection('dados').find({},{" telefone " : 1, "_id" : 0})
+
+
 * Consulta utilizando combinação entre os seletores
+db.getCollection('dados').find({}).skip(3)
+
 * Consulta paginada e ordenada (utilizar *skip*, *limit* e *sort*)
+
+db.getCollection('dados').find().sort({"estudante. nome ": 1})
+
+* limitando a busca de estudante 
+
+db.getCollection('dados').find().limit(2)
+
+
+
