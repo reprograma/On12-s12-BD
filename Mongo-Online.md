@@ -19,6 +19,6 @@ Com o mongosh instalado deve-se utilizar o comando abaixo para se conectar na ba
 mongosh "mongodb+srv://cluster0.kuokc.mongodb.net/reprograma" --username alunareprograma
 ```
 
-Ao rodar o comando irá pedir a senha. Com isso deverá digitar *@reprograma12* e pressionar enter. Com isso você estará conectada ao banco de dados mongo online que criei. Fique a vontade para criar novas Collections e fazer os exerícios da semana utilizando esse terminal.
+Ao rodar o comando irá pedir a senha. Com isso deverá digitar *reprograma12* e pressionar enter. Com isso você estará conectada ao banco de dados mongo online que criei. Fique a vontade para criar novas Collections e fazer os exerícios da semana utilizando esse terminal.
 
 
