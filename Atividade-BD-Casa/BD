@@ -1,0 +1,149 @@
+###  On12-s12-BD Projeto | Projeto Database
+{
+"ceps" : [
+{
+        "cep": "50070-355",
+        "logradouro": "Rua Visconde de Goiana",
+        "complemento": "até 120/121",
+        "bairro": "Boa Vista",
+        "localidade": "Recife",
+        "uf": "PE",
+        "ibge": "2611606",
+        "gia": "",
+        "ddd": "81",
+        "siafi": "2531"
+    },
+    {
+        "cep": "50070-285",
+        "logradouro": "Rua General Joaquim Inácio",
+        "complemento": "lado ímpar",
+        "bairro": "Boa Vista",
+        "localidade": "Recife",
+        "uf": "PE",
+        "ibge": "2611606",
+        "gia": "",
+        "ddd": "81",
+        "siafi": "2531"
+    },
+    {
+        "cep": "50070-395",
+        "logradouro": "Rua Marques Amorim",
+        "complemento": "",
+        "bairro": "Ilha do Leite",
+        "localidade": "Recife",
+        "uf": "PE",
+        "ibge": "2611606",
+        "gia": "",
+        "ddd": "81",
+        "siafi": "2531"
+    },
+    {
+        "cep": "01001-000",
+        "logradouro": "Praça da Sé",
+        "complemento": "lado ímpar",
+        "bairro": "Sé",
+        "localidade": "São Paulo",
+        "uf": "SP",
+        "ibge": "3550308",
+        "gia": "1004",
+        "ddd": "11",
+        "siafi": "7107"
+    },
+    {
+        "cep": "03420-005",
+        "logradouro": "Passagem A",
+        "complemento": "",
+        "bairro": "Vila Carrão",
+        "localidade": "São Paulo",
+        "uf": "SP",
+        "ibge": "3550308",
+        "gia": "1004",
+        "ddd": "11",
+        "siafi": "7107"
+    },
+    {
+        "cep": "08226-021",
+        "logradouro": "Rua 18 de Abril",
+        "complemento": "",
+        "bairro": "Cidade Antônio Estevão de Carvalho",
+        "localidade": "São Paulo",
+        "uf": "SP",
+        "ibge": "3550308",
+        "gia": "1004",
+        "ddd": "11",
+        "siafi": "7107"
+    },
+    {
+        "cep": "38703-731",
+        "logradouro": "Rua 1C",
+        "complemento": "",
+        "bairro": "Jardim Esperança",
+        "localidade": "Patos de Minas",
+        "uf": "MG",
+        "ibge": "3148004",
+        "gia": "",
+        "ddd": "34",
+        "siafi": "4959"
+    },
+    {
+        "cep": "31846-022",
+        "logradouro": "Beco A",
+        "complemento": "",
+        "bairro": "Lajedo",
+        "localidade": "Belo Horizonte",
+        "uf": "MG",
+        "ibge": "3106200",
+        "gia": "",
+        "ddd": "31",
+        "siafi": "4123"
+    },
+    {
+        "cep": "23545-037",
+        "logradouro": "Rua 1",
+        "complemento": "(Acesso Est Sepetiba 4718)",
+        "bairro": "Sepetiba",
+        "localidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "ibge": "3304557",
+        "gia": "",
+        "ddd": "21",
+        "siafi": "6001"
+    },
+    {
+        "cep": "20021-170",
+        "logradouro": "Largo da Lapa",
+        "complemento": "",
+        "bairro": "Centro",
+        "localidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "ibge": "3304557",
+        "gia": "",
+        "ddd": "21",
+        "siafi": "6001"
+    },
+    {
+        "cep": "41321-205",
+        "logradouro": "Acesso 01",
+        "complemento": "(Lot P Pesquisa-V Melhor)",
+        "bairro": "Castelo Branco",
+        "localidade": "Salvador",
+        "uf": "BA",
+        "ibge": "2927408",
+        "gia": "",
+        "ddd": "71",
+        "siafi": "3849"
+    },
+    {
+        "cep": "41205-560",
+        "logradouro": "Caminho 01",
+        "complemento": "(Cabula VII)",
+        "bairro": "Tancredo Neves",
+        "localidade": "Salvador",
+        "uf": "BA",
+        "ibge": "2927408",
+        "gia": "",
+        "ddd": "71",
+        "siafi": "3849"
+    }
+]
+}
